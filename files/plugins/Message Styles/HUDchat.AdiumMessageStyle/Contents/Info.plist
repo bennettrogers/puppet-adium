@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowTextColors</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>HUDchat</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adiumx.pritC.hudchat</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>HUDchat</string>
+	<key>CFBundlePackageType</key>
+	<string>AdIM</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>DefaultBackgroundColor</key>
+	<string>363636</string>
+	<key>DefaultFontFamily</key>
+	<string>Helvetica</string>
+	<key>DefaultFontSize</key>
+	<integer>12</integer>
+	<key>DefaultVariant</key>
+	<string>HUD - HUD vs HUD</string>
+	<key>DisableCombineConsecutive</key>
+	<false/>
+	<key>DisableCustomBackground</key>
+	<false/>
+	<key>DefaultBackgroundIsTransparent</key>
+	<true/>
+	<key>MessageViewVersion</key>
+	<integer>4</integer>
+	<key>ShowsUserIcons</key>
+	<true/>
+</dict>
+</plist>

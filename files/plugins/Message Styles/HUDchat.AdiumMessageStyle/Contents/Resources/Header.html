@@ -1,0 +1,12 @@
+<script type="text/javascript">
+	var cssNodeOutgoing = document.createElement('link');
+	cssNodeOutgoing.type = 'text/css';
+	cssNodeOutgoing.rel = 'stylesheet';
+	cssNodeOutgoing.media = 'screen';
+	cssNodeOutgoing.href = "headerMod.css";
+	cssNodeOutgoing.id = 'customHeader';
+	document.getElementsByTagName("head")[0].appendChild(cssNodeOutgoing);
+	headerPresent = 1;
+</script>
+<div id = "OptionalBar"><div class="HeaderText">Conversation with %chatName%</div><div class="HeaderTime">Started at %timeOpened%</div></div>
+<!--<div id ="Header"><p><div class="status"><span>  </span></div></p></div> --> 

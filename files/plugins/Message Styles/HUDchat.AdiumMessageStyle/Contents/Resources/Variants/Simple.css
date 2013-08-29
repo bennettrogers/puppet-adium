@@ -1,0 +1,157 @@
+.msgIn, .msgOut, .Context .msgIn, .Context .msgOut {
+	background:rgba(0,0,0,0.4);
+	-webkit-border-radius: 6px 6px 0px 0px;
+	margin-bottom:10px;
+	margin-left:0px;
+	margin-right:0px;
+	padding-bottom:0;
+	float:left;
+	}
+	.next .msgIn, .next .msgOut, .next .Context .msgIn, .next .Context .msgOut {
+		background:rgba(0,0,0,0.4);
+		-webkit-border-radius: 0;
+		margin-bottom:10px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:-10px;
+		padding-top:0;
+		border:0;
+		padding-bottom:0;
+		float:left;
+		}
+.messageOut, .messageIn, .Context .msgOut .messageOut, .Context .msgIn .messageIn  {
+	-webkit-border-image:none;
+	float:left;
+	color:white;
+	margin:0;
+	padding:0px 6px 0px 6px;
+	margin-left:23px; 
+}
+
+.content, .Context .msgOut .messageOut .content, .Context .msgIn .messageIn .content  {
+	color:white;
+	text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+	font-weight:normal;
+	padding-bottom:0;
+	padding-top:4px;
+}
+
+.msgIn .buddy, .msgOut .buddy {
+	width: 0px;
+	height:0px;
+	position: absolute;
+	bottom: 0;
+}
+.username {
+	height:13px;
+	font:12px;
+	text-indent:0em; 
+	opacity:1;
+	position:relative;
+	margin-top:10px;
+	left:25px;
+	bottom:6px;
+	color:white;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.msgIn .username {
+	color:#4483CC;
+}
+.msgOut .username {
+	color:#87929E;
+}
+
+.msgIn .time, .msgOut .time, .msgIn .time span, .msgOut .time span {
+	color:#bbb;
+	position:relative;
+	right:0;
+	top:-6px;
+	margin-left:0;
+	text-align:left;
+	display:block;
+	float:right;
+	visibility:visible;
+	opacity:1;
+	border:none;
+	-webkit-box-shadow:none;
+	background:transparent;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+.next .username, .next .msgIn .time, .next .msgOut .time, .next .msgIn .time span, .next .msgOut .time span {
+	height:0;
+	visibility:hidden;
+	text-indent:-999em;
+}
+.messageIn, .messageOut, .Context .msgOut .messageOut, .Context .msgIn .messageIn {
+	width:100%;
+	background:transparent;
+	border:0;
+	border-bottom:0;
+	padding-bottom:10px;
+	
+}
+
+.status span {
+	-webkit-border-radius: 10px;
+	background:rgba(0,0,0,0.4);
+	border:1px solid rgba(255,255,255,0.4);
+	width:95%;
+	color:#aaa;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.6); 
+	padding:3px 0;
+	-webkit-transition-property: border;
+	-webkit-transition-duration: 500ms;
+}
+
+.status:hover span {
+	border:1px solid rgba(255,255,255,0.7);
+	background:rgba(0,0,0,0.4);
+}
+.next .content {
+	padding-top:0;
+}
+
+/****Link styles****/	
+
+.msgIn a:link, .msgOut a:link {
+	color: #e92767;
+	background:transparent;
+	font-weight: normal;
+	text-decoration: none;
+	padding:0 0 0 0;
+	margin-top:0px;
+	margin-bottom:0px;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0);
+	-webkit-border-radius: 0px;
+	border-top: 0;
+	border-bottom:0;
+	border-left: 0;
+	border-right: 0;
+	-webkit-transition-property:color;
+	-webkit-transition-duration:400ms;
+	white-space:normal;
+	display:inline;
+}
+		
+.msgIn a:hover, .msgOut a:hover {
+	color: #fff; 
+	background:transparent;
+	text-decoration: none;
+	border-top: 0;
+	border-bottom:0;
+	border-left: 0;
+	border-right: 0;
+	-webkit-box-shadow: 0px 0px 0px rgba(255,255,255,0);
+}
+		
+.msgIn a:active, .msgOut a:active, {
+	color:#ddd;
+	background:transparent;
+	text-decoration: none;
+	border-top: 0;
+	border-bottom:0;
+	border-left: 0;
+	border-right: 0;
+	-webkit-box-shadow: 0px 0px 0px rgba(255,255,255,0);
+}
