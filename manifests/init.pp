@@ -11,7 +11,7 @@ class adium {
 
   # Install plugins, if any
   file { "/Users/${::boxen_user}/Library/Application Support/Adium 2.0":
-    source  => "puppet:///adium/plugins",
+    source  => "puppet:///puppet-adium/plugins",
     recurse => true,
   }
 }
